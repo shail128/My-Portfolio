@@ -6,7 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" href="style.css">
-
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -15,7 +14,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 <header>
   <div class="logo">Shail Kumar</div>
-  <nav>
+
+  <div class="menu-toggle" id="menu-toggle">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <nav id="nav-menu">
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
@@ -27,7 +31,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 <section id="home" class="hero">
   <div class="hero-content">
-    <img src="profile photo.jpg" class="profile-img">
+    <img src="profile.jpg" class="profile-img">
     <h1>Hi, I'm <span>Shail Kumar</span></h1>
     <h2 class="typing"></h2>
   </div>
@@ -35,36 +39,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 <section id="about" class="section">
   <h2>About Me</h2>
-
-  <div class="about-container">
-    <p>
-      Hello! I'm <strong>Shail Kumar</strong>, a passionate and dedicated Web Developer 
-      with strong programming fundamentals in C, C++, C#, Java and Python.
-    </p>
-
-    <p>
-      I enjoy building responsive, user-friendly and modern web applications 
-      using HTML, CSS and JavaScript. I focus on writing clean, efficient 
-      and maintainable code.
-    </p>
-
-    <p>
-      I have strong problem-solving skills and analytical thinking ability, 
-      which help me approach complex challenges with logical and creative solutions.
-    </p>
-
-    <p>
-      I am continuously learning new technologies and improving my skills 
-      to become a better developer every day.
-    </p>
-
-    <div class="about-highlights">
-      <div>✔ Strong Programming Foundation</div>
-      <div>✔ Responsive Web Development</div>
-      <div>✔ Clean & Optimized Code</div>
-      <div>✔ Fast Learner & Adaptable</div>
-    </div>
-  </div>
+  <p>
+    Passionate Web Developer skilled in C, C++, C#, Java, Python and modern web technologies.
+    I love building responsive and creative web applications.
+  </p>
 </section>
 
 <section id="skills" class="section dark">
@@ -76,8 +54,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       <svg width="160" height="160">
         <defs>
           <linearGradient id="GradientColor" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#00adb5" />
-            <stop offset="100%" stop-color="#00ffcc" />
+            <stop offset="0%" stop-color="#00adb5"/>
+            <stop offset="100%" stop-color="#00ffcc"/>
           </linearGradient>
         </defs>
         <circle cx="80" cy="80" r="65"></circle>
@@ -119,11 +97,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 <section id="projects" class="section">
   <h2>Projects</h2>
-
   <div class="projects-container">
     <div class="project-card">
       <h3>Expiry Date Reminder</h3>
-      <p>Track products and get expiry alerts. Built with HTML, CSS & JavaScript.</p>
+      <p>Track products and get expiry alerts using HTML, CSS & JavaScript.</p>
       <a href="https://shail128.github.io/Expiry-Date-Reminder/" target="_blank" class="project-btn">Live Demo</a>
       <a href="https://github.com/shail128/Expiry-Date-Reminder" target="_blank" class="project-btn">View Code</a>
     </div>
